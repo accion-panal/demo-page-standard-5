@@ -10516,3 +10516,22 @@ textarea {
   border-radius: 50%;
   height: 175px;
 }
+.imgFondo{
+  object-fit: cover;
+}
+
+@media screen and (max-width:470px) {
+  
+  .imgFondo{
+    object-fit: cover;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width:370px) {
+  
+  .imgFondo{
+    object-fit: cover;
+    height: 506px;
+  }
+}
